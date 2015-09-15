@@ -1,0 +1,22 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "coffeelintConfig": {
+    "max_line_length": {
+      "value": 120
+    }
+  },
+  "author": "David Buezas",
+  "scripts": {
+    "start": "nodemon index.coffee"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "cookie-session": "^1.2.0",
+    "express": "^4.13.3",
+    "request": "^2.61.0"
+  }
+}
